@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>final</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="final.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code|Ubuntu+Mono|VT323&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1 style="text-align:center; color:#FCFEFE; font-size: 40px;">WEEKLY PLANNER</h1>
+<div class="weekday">
+    <div class="monday">
+        <h1 style="text-align:center; color:#FFC2E7;">Monday</h1>
+          <div class="grid-monday" style="text-align:center;">
+              <input class='word1' type="word">
+              <div class="grid-monday2">
+              <input type="button" class="Do1" value="Add" onclick="Do1()">
+
+              <input type="button" class="Delete1" value="Delete" onclick="Delete1()">
+
+              <input type="button" class="Reset1" onclick="Reset1()" value="Refresh">
+            </div>
+  </div>
+          <div id="BoxText1">
+              <p style="text-align:center;color:#283330;">List
+               <div class="things-display1" maxlength="20"></div>
+               <br>
+               <br>
+               <br>
+               <br>
+               <br>
+              <p style="text-align:center;color:#283330;">Total
+               <div class="items-display1" style="text-align:center;"></div>
+          </div>
+        </div>
+        <div class="tuesday">
+            <h1 style="text-align:center;color:#FFC2E7;">Tuesday</h1>
+              <div class="grid-tuesday" style="text-align:center;">
+                  <input class='word2' type="word">
+                  <div class="grid-tuesday2">
+                  <input type="button" class="Do2" value="Add" onclick="Do2()">
+
+                  <input type="button" class="Delete2" value="Delete" onclick="Delete2()">
+
+                  <input type="button" class="Reset2" onclick="Reset2()" value="Refresh">
+                </div>
+              </div>
+              <div id="BoxText2">
+                  <p style="text-align:center;color:#283330;">List
+                   <div class="things-display2" maxlength="20"></div>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                   <br>
+                  <p style="text-align:center;color:#283330;">Total
+                   <div class="items-display2" style="text-align:center;"></div>
+              </div>
+            </div>
+            <div class="wednesday">
+                <h1 style="text-align:center;color:#FFC2E7;">Wednesday</h1>
+                  <div class="grid-wednesday" style="text-align:center;">
+                      <input class='word3' type="word">
+                      <div class="grid-wednesday2">
+
+                      <input type="button" class="Do3" value="Add" onclick="Do3()">
+
+                      <input type="button" class="Delete3" value="Delete" onclick="Delete3()">
+
+                      <input type="button" class="Reset3" onclick="Reset3()" value="Refresh">
+                    </div>
+  </div>
+                  <div id="BoxText3">
+                    <p style="text-align:center;color:#283330;">List
+                      <div class="things-display3" maxlength="20"></div>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <p style="text-align:center;color:#283330;">Total
+                       <div class="items-display3" style="text-align:center;"></div>
+                  </div>
+                </div>
+                <div class="thursday">
+                    <h1 style="text-align:center;color:#FFC2E7;">Thursday</h1>
+                      <div class="grid-thursday" style="text-align:center;">
+                          <input class='word4' type="word">
+                          <div class="grid-thursday2">
+
+                          <input type="button" class="Do4" value="Add" onclick="Do4()">
+
+                          <input type="button" class="Delete4" value="Delete" onclick="Delete4()">
+
+                          <input type="button" class="Reset4" onclick="Reset4()" value="Refresh">
+                        </div>
+  </div>
+                      <div id="BoxText4">
+                          <p style="text-align:center;color:#283330;">List
+                           <div class="things-display4" maxlength="20"></div>
+                           <br>
+                           <br>
+                           <br>
+                           <br>
+                           <br>
+                          <p style="text-align:center;color:#283330;">Total
+                           <div class="items-display4" style="text-align:center;"></div>
+                      </div>
+                    </div>
+                    <div class="friday">
+                      <h1 style="text-align:center;color:#FFC2E7;">Friday</h1>
+                          <div class="grid-friday" style="text-align:center;">
+                              <input class='word5' type="word">
+                              <div class="grid-friday2">
+
+                              <input type="button" class="Do5" value="Add" onclick="Do5()">
+
+                              <input type="button" class="Delete5" value="Delete" onclick="Delete5()">
+
+                              <input type="button" class="Reset5" onclick="Reset5()" value="Refresh">
+                            </div>
+    </div>
+                          <div id="BoxText5">
+                              <p style="text-align:center;color:#283330;">List
+                               <div class="things-display5" maxlength="20"></div>
+                               <br>
+                               <br>
+                               <br>
+                               <br>
+                               <br>
+                              <p style="text-align:center;color:#283330;">Total
+                               <div class="items-display5" style="text-align:center;"></div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                        <div class="weekend">
+
+
+                          <div class="saturday">
+                            <h1 style="text-align:center;color:#FFC2E7;">Saturday</h1>
+                                <div class="grid-saturday" style="text-align:center;">
+                                    <input class='word6' type="word">
+                                    <div class="grid-saturday2">
+
+                                    <input type="button" class="Do6" value="Add" onclick="Do6()">
+
+                                    <input type="button" class="Delete6" value="Delete" onclick="Delete6()">
+
+                                    <input type="button" class="Reset6" onclick="Reset6()" value="Refresh">
+                                  </div>
+          </div>
+                                <div id="BoxText6">
+                                    <p style="text-align:center;color:#283330;">List
+                                     <div class="things-display6" maxlength="20"></div>
+                                     <br>
+                                     <br>
+                                     <br>
+                                     <br>
+                                    <p style="text-align:center;color:#283330;">Total
+                                     <div class="items-display6" style="text-align:center;"></div>
+                                </div>
+                              </div>
+                              <div class="sunday">
+                                  <h1 style="text-align:center;color:#FFC2E7;">Sunday</h1>
+                                    <div class="grid-sunday" style="text-align:center;">
+                                        <input class='word7' type="word">
+                                        <div class="grid-sunday2">
+
+                                        <input type="button" class="Do7" value="Add" onclick="Do7()">
+
+                                        <input type="button" class="Delete7" value="Delete" onclick="Delete7()">
+
+                                        <input type="button" class="Reset7" onclick="Reset7()" value="Refresh">
+                                      </div>
+              </div>
+                                    <div id="BoxText7">
+                                        <p style="text-align:center;color:#283330;">List
+                                         <div class="things-display7" maxlength="20"></div>
+                                         <br>
+                                         <br>
+                                         <br>
+                                         <br>
+                                        <p style="text-align:center;color:#283330;">Total
+                                         <div class="items-display7" style="text-align:center;"></div>
+                                    </div>
+                                  </div>
+
+
+                        </div>
+
+
+
+
+
+         <script src="final.js"></script>
+</body>
+</html>

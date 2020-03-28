@@ -1,0 +1,72 @@
+body{
+  background-image: url('https://lh3.googleusercontent.com/proxy/yxKK4D7oHoY_S66S4N3eJk9C4jCEuxJH1_rctSpOG0cNNuG7CzwwTFHxu4VGHepK7drhuhGLkdbgd9PWxrm1HMJ1RY8H8A42lUmiGYbzV62ttS4Hr-Y');
+}
+.weekday{
+  margin-top: 50px;
+  margin-left: 45px;
+  margin-right: 45px;
+  background: rgba(25%, 0%, 100%, 0.4) ;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr ;
+}
+.weekend{
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 30px;
+  background-color: rgba(50%, 0%, 100%, 0.4);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.monday{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #FCFEFE;
+}
+.grid-monday2{
+  grid-template-columns:  1fr 1fr 1fr;
+
+}
+.tuesday{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #FCFEFE;
+}
+.wednesday{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #FCFEFE;
+}
+.thursday{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #FCFEFE;
+}
+.friday{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: #FCFEFE;
+}
+.saturday{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: #FCFEFE;
+}
+.sunday{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #FCFEFE;
+}
